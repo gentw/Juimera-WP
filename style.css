@@ -258,7 +258,12 @@ ul.cnss-social-icon li a:hover          { opacity: 0.7;}
 .slick-dots li.slick-active button,
 .slick-dots li button:hover,
 .slick-dots li button:focus         { background-color: #B79A5F;}
-.banner-slider                      { height: 700px;}
+.banner-slider {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: -149px;
+}
 .banner-slider .slick-list,
 .banner-slider .slick-track,
 .banner-slider .slick-slide,
@@ -970,7 +975,7 @@ div.wpcf7 .ajax-loader                  { display: block; }
     .footer-widget.social-widget        { width: 40%;}
     .footer-widget .widgettitle         { margin-bottom: 60px;}
     /* home */
-    .banner-slider                      { height: 500px;}
+    .banner-slider                      { height: 100vh;}
     .banner-item h1                         { font-size: 50px; line-height: 65px; }
     .banner-item p                          { font-size: 17px; line-height: 30px; }
     .banner-item a.apply                    { font-size: 18px; line-height: 25px; }
@@ -1356,7 +1361,7 @@ div.wpcf7 .ajax-loader                  { display: block; }
     .footer-widget.info-widget .widget_media_image { margin-bottom: 40px; }
     /** home **/
     .banner-slider.slick-slider .banner-item .container     { padding-bottom: 0;}
-    .banner-slider                             { height: auto; }
+    .banner-slider                             { height: 100vh; }
     .banner-item h1                     { font-size: 35px; line-height: 45px; }
     .banner-item p                      { font-size: 15px; line-height: 30px; }
     .banner-item a.apply                { padding: 10px 20px; font-size: 16px; line-height: 28px; }
