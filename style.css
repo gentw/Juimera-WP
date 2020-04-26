@@ -279,7 +279,8 @@ ul.cnss-social-icon li a:hover          { opacity: 0.7;}
     background: linear-gradient(to right, rgba(10,32,53,1) 0%, rgba(10,32,53,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2035', endColorstr='#0a2035', GradientType=1 );
      height: 100%; width: 100%; top: 0; left: 0; position: absolute; opacity: 0.6; content: ""; display: block;}
-.banner-slider.slick-slider .banner-item_inner          { padding: 50px 0; position: relative; height: 100%; display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center; margin-top: 90px;}
+.banner-slider.slick-slider .banner-item_inner          { padding: 50px 0; position: relative; height: 100%; display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center; margin-top: 120px;}
+.banner-slider.slick-slider .banner-item_inner .apply {display: none;}
 .banner-slider.slick-slider .banner-item .container             { padding-bottom: 100px; position: relative;}
 .item2                              { grid-area: myArea; }
 .home-grid > .wpb_column >  .vc_column-inner > .wpb_wrapper { display: grid; grid-template-areas: '. myArea . . ' '. myArea . . '; grid-gap: 20px; }
@@ -480,7 +481,7 @@ ul.cnss-social-icon li a:hover          { opacity: 0.7;}
 /*** COLLEGES PROGRAMS ***/
 .inner-banner h1.vc_custom_heading  { margin: 0 0 10px; color: #ffffff;}
 .inner-banner p                     { font-size: 24px; line-height: 34px; font-family: "Gotham Rounded"; font-weight: 500; color: #fff;}
-.inner-banner:not(.vc_row)          { display: flex; display: -webkit-flex; align-items: flex-end; -webkit-align-items: flex-end;}
+.inner-banner:not(.vc_row)          { display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center;}
 .inner-banner:not(.vc_row) .container { position: relative;}
 .cp-cat .cat-img                    { margin-bottom: 30px !important; width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center;}
 .cp-cat .cat-img::before            { content: ""; display: block; padding-top: 56.25%;}
