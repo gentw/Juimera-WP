@@ -14,7 +14,14 @@ get_header('post'); ?>
 			    <div class="container">
 			        <div class="banner-content">
 			        	<h1><?php echo get_field('custom_title_long_text', get_the_ID()); ?></h1>
-			        	<?php
+			        	
+			        </div>
+			    </div>
+			</div>
+
+			<div style="background-color: #E7DFC9; width: 100%; height: auto; position:relative">
+				<div class="container">
+					<?php
 		        	        $args = array(
 		        	            'post_type' => 'college-programs',
 		        	            'posts_per_page' => -1,
@@ -49,9 +56,9 @@ get_header('post'); ?>
 		            			<?php 
 		                    }
 		            	?>
-			        </div>
-			    </div>
+				</div>
 			</div>
+
 			<div class="common-spacing">
 				<div class="container">
 					<?php the_content(); ?>

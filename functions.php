@@ -724,7 +724,7 @@ function jumeira_all_page_banner_posts($atts){
     if($loop->have_posts()):
         ?>
         <div class="banner-content">
-            <h1><?php echo get_the_title(wp_get_post_parent_id( $page_id )); ?></h1>
+            <!-- <h1><?php //echo get_the_title(wp_get_post_parent_id( $page_id )); ?></h1> -->
             <ul class="list-inline banner-tabs">
                 <?php
                 while($loop->have_posts()) : $loop->the_post();
@@ -745,9 +745,7 @@ function jumeira_all_page_banner_posts($atts){
                                     <img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(); ?>">
                                 <?php } ?>
                                 <h5><a href="<?php echo get_field('view_more_button_link'); ?>"><?php echo get_the_title(); ?></a></h5>
-                                <?php if(get_field('view_more_button_link')){ ?>
-                                    <a href="<?php echo get_field('view_more_button_link'); ?>" class="view-more"><?php echo get_field('view_more_button_text'); ?></a>
-                                <?php } ?>
+                                
                             </div>
                         </div>
                     </li>
